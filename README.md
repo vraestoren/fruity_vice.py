@@ -3,9 +3,9 @@ Web-API for [fruityvice.com](https://www.fruityvice.com) powerful webservice whi
 
 ## Example
 ```python
-from fruity_vice importy FruityVice
+from fruity_vice import FruityVice
 
 fruity_vice = FruityVice()
-all_fruits = fruity_vice.get_all_fruits()
-print(all_fruits)
+fruits = fruity_vice.get_all_fruits()
+print(fruits)
 ```
