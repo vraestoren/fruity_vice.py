@@ -11,7 +11,7 @@ class FruityVice:
 	def get_all_fruits(self) -> dict:
 		return self.session.get(f"{self.api}/fruit/all").json()
 	
-	def get_fruid_by_id(self, fruit_id: int) -> dict:
+	def get_fruit_by_id(self, fruit_id: int) -> dict:
 		return self.session.get(
 			f"{self.api}/fruit/{fruit_id}").json()
 	
